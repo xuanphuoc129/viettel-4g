@@ -14,3 +14,96 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+::-webkit-scrollbar { 
+    display: none; 
+}
+.btn-info {
+  border-radius: 20px;
+  text-transform: unset;
+  height: unset;
+  padding: 6px 12px;
+
+  &.primary {
+    color: #41bdaf;
+    border-color: #41bdaf;
+  }
+}
+
+.btn-sign {
+  border-radius: 20px;
+  text-transform: unset;
+  color: white;
+  padding: 10px 0;
+  box-shadow: 0 3px 10px rgba($color: #000000, $alpha: .4);
+
+  &.primary {
+    background: #41bdaf;
+  }
+
+  &.orange {
+    background: #f6921e;
+  }
+}
+
+.orange-color {
+  color: #f6921e;
+}
+
+.primary-color {
+  color: #41bdaf;
+}
+
+.list-package-container {
+  .row {
+    flex-wrap: nowrap;
+    overflow: scroll;
+    padding: 0 3vw !important;
+  }
+  .col {
+    padding: 1.5vw;
+  }
+  .box-container {
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba($color: #000000, $alpha: .4);
+
+    .line-item {
+      border-bottom: .55px solid #e8e8e8;
+      padding: 5px 0;
+
+      .item-data {
+        font-size: 2.6rem;
+        color: #41bdaf;
+        font-weight: bold;
+        margin-right: 6px;
+      }
+    }
+    .hot{
+      right: -20px;
+      top: -16px;
+      img{
+        max-width: 80%;
+      }
+    }
+    .btn-info {
+      margin-top: 10px;
+    }
+
+    .btn-sign {
+      margin-top: 16px;
+    }
+  }
+}
+
+
+.white-bg {
+  background: white;
+}
+
+.box-shadow {
+  box-shadow: 0 3px 6px rgba($color: #000000, $alpha: .2);
+}
+
+.border-radius {
+  border-radius: 40px;
+}

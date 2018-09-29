@@ -1,0 +1,18 @@
+{
+    "goithang": {
+        "name": "GÓI THÁNG",
+        "title": "TRỌN GÓI CHỈ TỪ 70.000Đ - SỬ DỤNG TRÊN MẠNG 3G/4G",
+        "description":"Gói data tháng  dành cho khách hàng có nhu cầu sử dụng internet thường xuyên tren di động \n Gói cước sử dụng chung các mạng 3G/4G. Gói data Mimax70 (70.000đ có 3Gb tốc độ cao sử dụng trong 30 ngày) phù hợp với nhu cầu đọc báo, nghe nhạc, nhắn tin, online, lướt facebook \n Gói data Mimax90 (90.000đ có 5GB tốc độ cao sử dụng trong 30 ngày) phù hợp với nhu cầu đọc báo, nghe nhạc, check mail, nhắn tin, online, lướt facebook, video call thoải mái với bạn bè.\nNếu bạn thích xem video trên Youtube, facebook thì gói Mimax125 (125.000đ có 8Gb tốc độ cao sử dụng trong 30 ngày) sẽ đáp ứng nhu cầu của bạn. \n Nếu bạn là tín đồ nghiền phim Online hoặc trò chơi trên điện thoại di động thì hãy sử dụng gói data Mimax200 (200.000đ có 15 Gb tốc độ cao) và Umax (300.000đ có 30Gb tốc độ cao) sinh ra dành cho bạn rồi.",
+        "items": [
+            {
+                "id": 1,
+                "name": "Mimax 70",
+                "data": "3Gb",
+                "price": "70,000 đ",
+                "time": "30 ngày",
+                "isHot": true,
+                "description": "Gói cước data trọn gói. Sử dụng trên cả mạng 3G/4G. \n Với 70.000đ Quý khách sẽ có 3GB lưu lượng tốc độ cao, sử dụng trong 30 ngày (đối với TB trả trước) hoặc theo chu kỳ tháng (đối với TB trả sau)."
+            }
+        ]
+    }
+}

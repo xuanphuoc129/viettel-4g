@@ -1,3 +1,18 @@
 page-home {
-
+    .block-goithang{
+        margin-bottom: 16px;
+        .vt-4g-goithang-name{   
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .vt-4g-goithang-title{
+            margin-top: 10px;
+            color: black;
+            font-weight: bold;
+        }
+        .row{
+            margin: 16px 0;
+            padding: 16px 0 0 0;
+        }
+    }   
 }
