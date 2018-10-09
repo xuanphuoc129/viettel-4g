@@ -1,0 +1,40 @@
+tomato-package {
+  .tomato-package {
+    overflow: hidden;
+
+    background-image: url("../assets/imgs/viettel-4g-bg-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .img-girl {
+      max-width: 33.333%;
+      right: 20%;
+      bottom: -10px;
+
+      img {
+        max-width: 80%;
+      }
+    }
+
+    .tomato-bg-mobile {
+      background-image: url("../assets/imgs/viettel-4g-tomato-bg.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  #sixtyPackageID {
+    overflow-x: hidden;
+    padding: 10px 0;
+  }
+
+  .tab-container .tab-item .mtab {
+    background: #ca348f;
+  }
+}

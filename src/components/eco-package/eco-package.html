@@ -1,0 +1,98 @@
+<!-- Generated template for the EcoPackageComponent component -->
+<div>
+  <div class="data-package">
+
+    <ion-grid no-padding class="a1-relative">
+      <ion-row align-items-start>
+        <!-- ======== -->
+
+        <ion-col col-12 col-sm-4 col-md-4 class="a1-relative padding-top">
+
+          <div class="a1-absolute xs-show-block sm-hidden md-hidden lg-hidden xl-hidden eco-bg-mobile"></div>
+
+          <div text-center>
+            <div class="a1-relative">
+              <div class="vt-4g-package-name primary-color xs-white-color">
+                <span>{{mEcoDataPackage.name}}</span>
+              </div>
+
+              <div class="a1-absolute btn-left xs-hidden sm-hidden ">
+                <button ion-button outline class="btn-info primary xs-white" (click)="onClickInfo(1)">Thông tin</button>
+              </div>
+            </div>
+
+            <div class="vt-4g-package-title xs-white-color a1-relative">
+              <span>{{mEcoDataPackage.title}}</span>
+            </div>
+
+            <div class="xs-show-block sm-hidden md-hidden lg-hidden xl-hidden xs-margin-top">
+              <button ion-button outline class="btn-info primary xs-white" (click)="onClickInfo(1)">Thông tin</button>
+            </div>
+
+            <div class="package-container" style="padding: 15px 0">
+              <viettel-package [mViettelPackage]="mEcoDataPackage.items[0]" [color]="'primary-color'"></viettel-package>
+            </div>
+
+            <div text-center margin-top margin-bottom>
+              <button ion-button outline class="btn-info primary xs-white" (click)="onClickAll(1)">Xem tất cả</button>
+            </div>
+          </div>
+
+        </ion-col>
+        <!-- ======== -->
+        <div class="a1-absolute img-girl xs-hidden sm-hidden">
+          <img src="./assets/imgs/viettel-4g-person2.png" alt="Viettel-4G">
+        </div>
+
+        <ion-col col-12 col-sm-8 col-md-6 offset-md-2 class="a1-relative padding-top">
+
+          <div class="a1-absolute xs-show-block sm-hidden md-hidden lg-hidden xl-hidden more-bg-mobile"></div>
+
+          <div text-center>
+
+            <div class="a1-relative">
+              <div class="vt-4g-package-name orange-color">
+                <span>{{mMorePackages.name}}</span>
+              </div>
+
+              <div class="a1-absolute btn-right xs-hidden sm-hidden">
+                <button ion-button outline class="btn-info orange" (click)="onClickInfo(2)">Thông tin</button>
+              </div>
+            </div>
+
+            <div class="vt-4g-package-title a1-relative">
+              <span>{{mMorePackages.title}}</span>
+            </div>
+
+            <div class="xs-show-block sm-hidden md-hidden lg-hidden xl-hidden xs-margin-top">
+              <button ion-button outline class="btn-info orange" (click)="onClickInfo(2)">Thông tin</button>
+            </div>
+
+            <div class="package-container">
+              <ion-row align-items-start nowrap id="morePackageID" (swipe)="onSwipe($event)">
+                <ion-col col-12 col-sm-6 col-md-6>
+                  <viettel-package [mViettelPackage]="mMorePackages.items[0]" [color]="'orange-color'"></viettel-package>
+                </ion-col>
+                <ion-col col-12 col-sm-6 col-md-6>
+                  <viettel-package [mViettelPackage]="mMorePackages.items[1]" [color]="'orange-color'"></viettel-package>
+                </ion-col>
+              </ion-row>
+            </div>
+
+            <div class="tab-container sm-hidden md-hidden lg-hidden xl-hidden xs-show-flex">
+              <div class="tab-item" *ngFor="let tab of mMorePackageTabs" tappable (click)="onClickMoreTab(tab)">
+                <div class="mtab" [class.selected]="tab == mMoreTabIDSelected"></div>
+              </div>
+            </div>
+
+            <div text-center margin-top margin-bottom>
+              <button ion-button outline class="btn-info orange" (click)="onClickAll(2)">Xem tất cả</button>
+            </div>
+          </div>
+        </ion-col>
+        <!-- ======== -->
+      </ion-row>
+    </ion-grid>
+
+  </div>
+</div>

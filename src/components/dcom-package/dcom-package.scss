@@ -1,0 +1,26 @@
+dcom-package {
+  .dcom-package {
+    background-image: url("../assets/imgs/viettel-4g-bg-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 16px;
+    .line-middle {
+      height: 76%;
+      left: 50%;
+      bottom: 10px;
+      transform: translate(-50%, 0);
+      width: 2px;
+      background: #4f5b97;
+    }
+  }
+  #dcomPackageID{
+    overflow-x: hidden;
+  }
+  .tab-container{
+    margin-top: 0;
+  }
+  .tab-container .tab-item .mtab{
+    background: #4f5b97;
+  }
+}

@@ -1,0 +1,42 @@
+day-package {
+  .day-package {
+
+    overflow: hidden;
+
+    .img-girl {
+      max-width: 33.333%;
+      left: 12.5%;
+      bottom: -10px;
+
+      img {
+        max-width: 80%;
+      }
+    }
+
+    background-color: #975ca5;
+    background-color: -webkit-radial-gradient(center, ellipse cover, #d58de6 0%, #ab69bb 34%, #975ca5 57%, #975ca5 75%, #975ca5 100%);
+    background-color: radial-gradient(center, ellipse cover, #d58de6 0%, #ab69bb 34%, #975ca5 57%, #975ca5 75%, #975ca5 100%);
+  }
+
+  #dayPackageID {
+    overflow-x: hidden;
+    padding: 10px 0;
+  }
+  .tab-container{
+    position: relative;
+  }
+  .tab-container .tab-item .mtab{
+    background: white;
+  }
+  .day-bg-mobile{
+    background-image: url("../assets/imgs/viettel-4g-eco-bg-mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+  }
+}

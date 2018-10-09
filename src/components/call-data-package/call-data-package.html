@@ -1,0 +1,39 @@
+<!-- Generated template for the CallDataPackageComponent component -->
+<div>
+  <div class="call-data-package">
+   
+    <ion-grid no-padding>
+      <ion-row align-items-center class="vt-month-p-header">
+        <ion-col col-12 col-sm-8 offset-sm-2 offset-md-2 col-md-8 text-center>
+          <div class="vt-4g-package-name primary-color">
+            <span>{{mSixtyGBPackages.name}}</span>
+          </div>
+          <div class="vt-4g-package-title">
+            <span>{{mSixtyGBPackages.title}}</span>
+          </div>
+        </ion-col>
+
+        <ion-col col-12 col-sm-2 col-md-2 text-center class="xs-margin-top">
+          <button ion-button outline class="btn-info primary" (click)="onClickInfo()">Thông tin</button>
+        </ion-col>
+      </ion-row>
+
+      <ion-row justify-content-center id="callDataPackageID" (swipe)="onSwipe($event)" >
+        <ion-col  col-12 col-sm-4 col-md-3 *ngFor="let item of mSixtyGBPackages.items">
+          <viettel-package [mViettelPackage]="item" [color]="'primary-color'"></viettel-package>
+        </ion-col>
+      </ion-row>
+
+      <div class="tab-container sm-hidden md-hidden lg-hidden xl-hidden xs-show-flex">
+        <div class="tab-item" *ngFor="let tab of mSixtyGBPackagesTabs" tappable (click)="onClickMonthTab(tab)">
+          <div class="mtab" [class.selected]="tab == mMonthTabIDSelected"></div>
+        </div>
+      </div>
+
+      <!-- <div text-center margin-top margin-bottom>
+        <button ion-button outline class="btn-info primary" (click)="onClickAll()">Xem tất cả</button>
+      </div> -->
+
+    </ion-grid>
+  </div>
+</div>

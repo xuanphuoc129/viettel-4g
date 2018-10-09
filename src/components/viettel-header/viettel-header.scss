@@ -1,0 +1,104 @@
+viettel-header {
+  
+  .menu-container {
+    .col {
+      padding: 0 5px;
+    }
+
+    .logo-viettel {
+      text-align: center;
+      max-width: 160px;
+      margin-right: 10px;
+
+      img {}
+    }
+
+    .menu-item-desktop {
+      color: white;
+      font-size: 1.1em;
+      cursor: pointer;
+      padding: 10px 16px;
+
+     
+
+      .animateBar {
+        height: 2px;
+        background: #f6921e;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        transform-origin: left;
+        transform: scaleX(0);
+        transition: 500ms;
+        position: absolute;
+      }
+
+      .dropbox {
+        top: 100%;
+        left: 0;
+        background: white;
+        padding-top: 16px;
+        min-width: 200px;
+        transform-origin: right;
+        // transform: scaleX(0);
+        // opacity: 0;
+        display: none;
+        transition: 500ms;
+        box-shadow: 0 3px 6px rgba($color: #000000, $alpha: .2);
+
+        .dropbox-item {
+          padding: 10px 16px;
+          display: block;
+          color: #222;
+          white-space: nowrap;
+          a{
+            color: black;
+          }
+          a:hover{
+            opacity: 1;
+          }
+        }
+
+        .dropbox-item:hover {
+          a{
+            color: #41bdaf !important;
+          }
+          span{
+            color: #41bdaf !important;
+          }
+        }
+      }
+    }
+
+    .menu-item-desktop:hover {
+      background: rgba($color: white, $alpha: .4);
+
+      .dropbox {
+        display: block;
+      }
+
+      .animateBar {
+        transform: scaleX(1);
+      }
+    }
+
+    .circle {
+      margin-left: 10px;
+      height: 24px;
+      width: 24px;
+      border-radius: 50%;
+      background: white;
+
+      ion-icon {
+        font-size: 1em;
+      }
+    }
+
+    .hotline {
+      font-size: 1.1em;
+      color: white;
+      margin-left: 10px;
+    }
+
+  }
+}

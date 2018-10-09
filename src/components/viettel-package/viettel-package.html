@@ -1,0 +1,25 @@
+<!-- Generated template for the ViettelPackageComponent component -->
+<div>
+  <div class="box-container a1-relative white-bg  border-radius">
+    <div class="line-item {{color}} font-bold" style="font-size: 1.6rem">{{mViettelPackage.name}}</div>
+    <div class="line-item">
+      <span class="item-data {{color}}">{{mViettelPackage.data}}</span> 
+      <span [hidden]="no_data || mViettelPackage.p_id == 5">tốc độ cao</span>
+    </div>
+    <div class="line-item font-bold">{{mViettelPackage.price}} đ</div>
+    <div class="line-item font-bold">{{mViettelPackage.time}}</div>
+    <div style="margin-top: 10px">
+      <button class="btn-sign {{color.split('-')[0]}}" (click)="signup()">Đăng ký ngay</button>
+    </div>
+    <div style="margin-top: 10px">
+      <button class="btn-info {{color.split('-')[0]}}" [hidden]="mMode == 1" (click)="onClickDetail()">
+        <span>Chi tiết</span>
+      </button>
+    </div>
+
+    <div class="hot a1-absolute" *ngIf="mViettelPackage.isHot">
+      <img src="./assets/imgs/viettel-4g-hot.jpg" alt="">
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,117 @@
+viettel-footer {
+  .white-smoke {
+    padding: 0 5vw;
+
+    background: whitesmoke;
+
+    .vt-des {
+      white-space: pre-line;
+      padding: 0 16px 16px 16px;
+    }
+
+    .title-font-big {
+      margin-left: 10px;
+      font-size: 1.6em;
+    }
+  }
+
+  .white-bg {
+    padding: 16px 5vw;
+
+    .text-upper {
+      font-size: 1.4em;
+      padding: 10px 0;
+    }
+
+    .padding-left {
+      padding-left: 32px;
+    }
+
+    .border-right {
+      border-right: 1px solid lightgray;
+    }
+
+    .line-right {
+      position: absolute;
+      width: 1px;
+      background: lightgray;
+      height: 80%;
+      top: 50%;
+      transform: translateY(-50%);
+
+      &.line1 {
+        left: 25%;
+      }
+
+      &.line2 {
+        left: 50%;
+      }
+
+      &.line3 {
+        left: 75%;
+      }
+    }
+  }
+
+  .black-bg {
+    background: #222;
+    padding: 32px 5vw;
+
+    .text-big {
+      font-size: 1.6em;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .icon-container {
+      min-width: 36px;
+    }
+
+    a {
+      color: black !important;
+    }
+
+    .circle {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      background: whitesmoke;
+      margin: 0 10px;
+      cursor: pointer;
+      transform: scale(1);
+      transition: 200ms;
+
+    }
+
+    .circle:hover {
+      transform: scale(1.08);
+    }
+
+    .introduce {
+      color: white;
+      white-space: pre-line;
+    }
+
+    .item-service {
+      color: white;
+      font-size: 1.1em;
+      margin-top: 6px;
+      cursor: pointer;
+      a{
+        color: white !important;
+        text-decoration: unset;
+      }
+    }
+
+    .item-service:hover {
+      color: #f6921e;
+    }
+  }
+
+  @media (max-width: 576px) {
+      .padding-left{
+          padding-left: 0 !important;
+      }
+  }
+
+}

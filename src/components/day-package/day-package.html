@@ -1,0 +1,58 @@
+<!-- Generated template for the DayPackageComponent component -->
+<div>
+  <div class="day-package">
+    <ion-grid no-padding>
+      <ion-row class="a1-relative">
+        <div class="a1-absolute img-girl xs-hidden sm-hidden">
+          <img src="./assets/imgs/viettel-4g-person4.png" alt="Viettel-4G">
+        </div>
+
+        <ion-col col-12 offset-md-5 offset-sm-5 col-md-6 col-sm-6 class="a1-relative padding-top">
+
+            <div class="a1-absolute xs-show-block sm-hidden md-hidden lg-hidden xl-hidden day-bg-mobile"></div>
+
+          <div text-center>
+            <div class="a1-relative">
+              <div class="vt-4g-package-name white-color">
+                <span>{{mDayPackages.name}}</span>
+              </div>
+
+              <div class="a1-absolute btn-right xs-hidden sm-hidden">
+                <button ion-button outline class="btn-info white" (click)="onClickInfo()">Thông tin</button>
+              </div>
+            </div>
+
+            <div class="vt-4g-package-title a1-relative white-color">
+              <span>{{mDayPackages.title}}</span>
+            </div>
+
+            <div class="xs-show-block sm-hidden md-hidden lg-hidden xl-hidden xs-margin-top">
+              <button ion-button outline class="btn-info white" (click)="onClickInfo()">Thông tin</button>
+            </div>
+
+            <div class="package-container">
+              <ion-row align-items-start nowrap id="dayPackageID" (swipe)="onSwipe($event)">
+                <ion-col col-12 col-sm-6 col-md-6>
+                  <viettel-package [mViettelPackage]="mDayPackages.items[0]" [color]="'violet-color'"></viettel-package>
+                </ion-col>
+                <ion-col col-12 col-sm-6 col-md-6>
+                  <viettel-package [mViettelPackage]="mDayPackages.items[1]" [color]="'violet-color'"></viettel-package>
+                </ion-col>
+              </ion-row>
+            </div>
+
+            <div class="tab-container sm-hidden md-hidden lg-hidden xl-hidden xs-show-flex">
+              <div class="tab-item" *ngFor="let tab of mDayPackageTabs" tappable (click)="onClickTab(tab)">
+                <div class="mtab" [class.selected]="tab == mDayTabIDSelected"></div>
+              </div>
+            </div>
+
+            <div text-center margin-top margin-bottom>
+              <button ion-button outline class="btn-info white" (click)="onClickAll()">Xem tất cả</button>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</div>

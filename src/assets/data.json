@@ -1,18 +1,255 @@
 {
-    "goithang": {
-        "name": "GÓI THÁNG",
-        "title": "TRỌN GÓI CHỈ TỪ 70.000Đ - SỬ DỤNG TRÊN MẠNG 3G/4G",
-        "description":"Gói data tháng  dành cho khách hàng có nhu cầu sử dụng internet thường xuyên tren di động \n Gói cước sử dụng chung các mạng 3G/4G. Gói data Mimax70 (70.000đ có 3Gb tốc độ cao sử dụng trong 30 ngày) phù hợp với nhu cầu đọc báo, nghe nhạc, nhắn tin, online, lướt facebook \n Gói data Mimax90 (90.000đ có 5GB tốc độ cao sử dụng trong 30 ngày) phù hợp với nhu cầu đọc báo, nghe nhạc, check mail, nhắn tin, online, lướt facebook, video call thoải mái với bạn bè.\nNếu bạn thích xem video trên Youtube, facebook thì gói Mimax125 (125.000đ có 8Gb tốc độ cao sử dụng trong 30 ngày) sẽ đáp ứng nhu cầu của bạn. \n Nếu bạn là tín đồ nghiền phim Online hoặc trò chơi trên điện thoại di động thì hãy sử dụng gói data Mimax200 (200.000đ có 15 Gb tốc độ cao) và Umax (300.000đ có 30Gb tốc độ cao) sinh ra dành cho bạn rồi.",
-        "items": [
-            {
-                "id": 1,
-                "name": "Mimax 70",
-                "data": "3Gb",
-                "price": "70,000 đ",
-                "time": "30 ngày",
-                "isHot": true,
-                "description": "Gói cước data trọn gói. Sử dụng trên cả mạng 3G/4G. \n Với 70.000đ Quý khách sẽ có 3GB lưu lượng tốc độ cao, sử dụng trong 30 ngày (đối với TB trả trước) hoặc theo chu kỳ tháng (đối với TB trả sau)."
-            }
-        ]
+  "goithang": {
+    "name": "GÓI THÁNG",
+    "title": "TRỌN GÓI CHỈ TỪ 70.000Đ - SỬ DỤNG TRÊN MẠNG 3G/4G",
+    "description": "Gói data tháng  dành cho khách hàng có nhu cầu sử dụng internet thường xuyên tren di động \n Gói cước sử dụng chung các mạng 3G/4G. Gói data Mimax70 (70.000đ có 3Gb tốc độ cao sử dụng trong 30 ngày) phù hợp với nhu cầu đọc báo, nghe nhạc, nhắn tin, online, lướt facebook \n Gói data Mimax90 (90.000đ có 5GB tốc độ cao sử dụng trong 30 ngày) phù hợp với nhu cầu đọc báo, nghe nhạc, check mail, nhắn tin, online, lướt facebook, video call thoải mái với bạn bè.\nNếu bạn thích xem video trên Youtube, facebook thì gói Mimax125 (125.000đ có 8Gb tốc độ cao sử dụng trong 30 ngày) sẽ đáp ứng nhu cầu của bạn. \n Nếu bạn là tín đồ nghiền phim Online hoặc trò chơi trên điện thoại di động thì hãy sử dụng gói data Mimax200 (200.000đ có 15 Gb tốc độ cao) và Umax (300.000đ có 30Gb tốc độ cao) sinh ra dành cho bạn rồi.",
+    "items": [{
+      "id": 1,
+      "name": "Mimax 70",
+      "data": "3Gb",
+      "price": "70,000 đ",
+      "time": "30 ngày",
+      "isHot": true,
+      "description": "Gói cước data trọn gói. Sử dụng trên cả mạng 3G/4G. \n Với 70.000đ Quý khách sẽ có 3GB lưu lượng tốc độ cao, sử dụng trong 30 ngày (đối với TB trả trước) hoặc theo chu kỳ tháng (đối với TB trả sau)."
+    }]
+  },
+  "menu-items": [{
+      "id": 1,
+      "name": "Di động",
+      "dropbox": [{
+          "id": 1,
+          "name": "Sim số",
+          "url": "#"
+        },
+        {
+          "id": 2,
+          "name": "Gói trả trước",
+          "url": "#"
+        },
+        {
+          "id": 3,
+          "name": "Gói trả sau",
+          "url": "https://cuahangviettel.vn/trasau/"
+        },
+        {
+          "id": 4,
+          "name": "Gói data",
+          "url": ""
+        },
+        {
+          "id": 5,
+          "name": "Dịch vụ GTGT",
+          "url": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "Internet-Truyền hình",
+      "dropbox": [{
+          "id": 1,
+          "name": "Cáp quang FTTH",
+          "url": "#"
+        },
+        {
+          "id": 2,
+
+          "name": "Truyền hình Viettel",
+          "url": "#"
+        },
+        {
+          "id": 3,
+          "name": "Combo",
+          "url": "#"
+        },
+        {
+          "id": 4,
+          "name": "Điện thoại cố định",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ứng dụng số",
+      "dropbox": [{
+          "id": 1,
+          "name": "ViettelPay - Thanh toán & Chuyển tiền",
+          "url": "#"
+        },
+        {
+          "id": 2,
+          "name": "BankPlus - Ngân hàng di động",
+          "url": "#"
+        },
+        {
+          "id": 3,
+          "name": "VTPay - Thanh toán điện từ",
+          "url": "#"
+        },
+        {
+          "id": 4,
+          "name": "Smart Moto - Giám sát và chống trộm xe máy",
+          "url": "#"
+        },
+        {
+          "id": 5,
+          "name": "Viettel Study - Cổng giáo dục trực tuyến",
+          "url": "#"
+        },
+        {
+          "id": 6,
+          "name": "Viettel CA - Chữ ký số",
+          "url": "#"
+        },
+        {
+          "id": 7,
+          "name": "Chuyển tiền mặt",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Thiết bị - Điện thoại",
+      "dropbox": [{
+          "id": 1,
+          "name": "Smartphone chính hãng",
+          "url": "#"
+        },
+        {
+          "id": 2,
+          "name": "Khuyến mại Smartphone",
+          "url": "#"
+        },
+        {
+          "id": 3,
+          "name": "Điện thoại Viettel",
+          "url": "#"
+        },
+        {
+          "id": 4,
+          "name": "Tablet chính hãng",
+          "url": "#"
+        },
+        {
+          "id": 5,
+          "name": "Điện thoại cơ bản",
+          "url": "#"
+        },
+        {
+          "id": 6,
+          "name": "Bộ phát wifi 4G",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hỗ trợ CSKH",
+      "dropbox": [{
+          "id": 1,
+          "name": "Viettel Privilege",
+          "url": "#"
+        },
+        {
+          "id": 2,
+          "name": "Đăng ký thông tin trả trước",
+          "url": "#"
+        },
+        {
+          "id": 3,
+          "name": "Tra cứu TBTT cần cập nhật lại thông tin",
+          "url": "#"
+        },
+        {
+          "id": 4,
+          "name": "Câu hỏi thường gặp",
+          "url": "#"
+        },
+        {
+          "id": 5,
+          "name": "Thông tin bảo hành",
+          "url": "#"
+        },
+        {
+          "id": 6,
+          "name": "Thông tin hỗ trợ",
+          "url": "#"
+        },
+        {
+          "id": 7,
+          "name": "Lắng nghe để phát triển",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Tin tức",
+      "url": "https://cuahangviettel.vn/tin-tuc/"
     }
+
+  ],
+  "service": {
+    "services1": [
+      "Internet cáp quang",
+      "Truyền hình Viettel",
+      "Combo internet + truyền hình",
+      "Điện thoại cố định",
+      "Gói data di động",
+      "Gói cước trả sau",
+      "Sim số"
+    ],
+    "services2": [
+      "Giám sát và chống trộm xe máy - Smart Motor",
+      "Cổng giáo dục trực tuyến - Viettel Study",
+      "Dịch vụ Bảo hiểm Bảo Tâm An",
+      "Ngân hàng di động - BankPlus",
+      "Thanh toán điện từ - VTPay",
+      "Chữ ký số - Viettel CA",
+      "Chuyển tiền mặt"
+    ]
+  },
+  "helps": [{
+      "url": "https://cuahangviettel.vn/tin-tuc/chinh-sach-bao-hanh-dien-thoai.html",
+      "name": "Chính sách bảo hành điện thoại",
+      "noFollow": false
+    },
+    {
+      "url": "https://cuahangviettel.vn/tin-tuc/dieu-khoan-mua-hang.html",
+      "name": "Điều khoản mua hàng",
+      "noFollow": false
+    },
+    {
+      "url": "https://cuahangviettel.vn/tin-tuc/quy-trinh-mua-hang.html",
+      "name": "Quy trình mua hàng",
+      "noFollow": true
+
+    },
+    {
+      "url": "https://viettel.vn/ho-tro/cau-hoi-thuong-gap",
+      "name": "Câu hỏi thường gặp",
+      "noFollow": true
+    },
+    {
+      "noFollow": true,
+      "name": "Thông tin hỗ trợ",
+      "url": "https://viettel.vn/ho-tro/thong-tin-hotro/giai-dap-online"
+    },
+    {
+      "noFollow": false,
+      "name": "Tin tức",
+      "url": "https://cuahangviettel.vn/tin-tuc/"
+    }
+  ],
+  "cuahangviettel": [
+    "Giới thiệu",
+    "Thông tin cá nhân",
+    "Quản lý tài khoản",
+    "Quản lý cước",
+    "Quản lý giao dịch",
+    "Chính sách bảo mật"
+  ]
 }

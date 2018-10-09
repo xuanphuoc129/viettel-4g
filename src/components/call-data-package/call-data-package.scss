@@ -1,0 +1,17 @@
+call-data-package {
+  #callDataPackageID {
+    padding: 16px 0;
+    overflow-x: hidden;
+
+    .col {
+      margin-bottom: 6vh;
+    }
+  }
+
+  .call-data-package {
+    background-image: url("../assets/imgs/viettel-4g-bg-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,50 @@
+eco-package {
+  .data-package {
+    overflow: hidden;
+    background-color: #f9ec68;
+    background: -webkit-radial-gradient(center, ellipse cover, #fffcdd 0%, #fbf298 34%, #f9ec68 57%, #f9ec68 75%, #f9ec68 100%);
+
+    .img-girl {
+      max-width: 33.333%;
+      left: 28%;
+      bottom: -10px;
+
+      img {
+        max-width: 60%;
+      }
+    }
+  }
+
+  .tab-container .tab-item .mtab{
+    position: relative;
+    background: #f6921e;
+  }
+
+  .eco-bg-mobile {
+    background-image: url("../assets/imgs/viettel-4g-eco-bg-mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .more-bg-mobile {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: url("../assets/imgs/viettel-4g-tripes.jpg");
+    background-repeat: repeat;
+  }
+
+  #morePackageID {
+    padding: 10px 0;
+    overflow-x: hidden;
+  }
+
+ 
+
+}

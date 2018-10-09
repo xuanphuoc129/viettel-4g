@@ -1,0 +1,72 @@
+<!--
+  Generated template for the PackageDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <div class="xs-hidden primary-bg">
+        <viettel-header></viettel-header>
+    </div>
+
+  <ion-toolbar class="sm-hidden md-hidden lg-hidden xl-hidden">
+    <ion-buttons left>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="{{menuIcon}}"></ion-icon>
+      </button>
+    </ion-buttons>
+    <div class="img-top-header" text-center>
+      <img src="./assets/imgs/logo-viettel-telecom.png" alt="">
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <div class="img-header">
+    <img src="./assets/imgs/viettel-4g-desktop.jpg" alt="Viettel 4G">
+  </div>
+
+  <div padding class="a3-container a3-items-center path">
+    <a href="">
+      <span padding-right tappable>Home</span>
+    </a>
+    <span>/</span>
+    <span padding-left>{{mPackage.name}}</span>
+  </div>
+
+
+  <ion-grid>
+
+    <ion-row align-items-center class="vt-month-p-header">
+      <ion-col col-12 col-sm-8 offset-sm-2 offset-md-2 col-md-8 text-center>
+        <div class="vt-4g-package-name primary-color">
+          <span>{{mPackage.name}}</span>
+        </div>
+        <div class="vt-4g-package-title">
+          <span>{{mPackage.title}}</span>
+        </div>
+      </ion-col>
+
+      <ion-col col-12 col-sm-2 col-md-2 text-center class="xs-margin-top">
+        <button ion-button outline class="btn-info primary" (click)="onClickInfo()">Thông tin</button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="package-list-container" justify-content-center>
+      <ion-col col-12 col-sm-4 col-md-3 *ngFor="let item of mPackage.items">
+        <viettel-package [mViettelPackage]="item" [color]="'primary-color'"></viettel-package>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <viettel-footer></viettel-footer>
+
+  <ion-fab bottom right [hidden]="mScrollTop < 20">
+    <button ion-fab mini color="light" (click)="scrollTop()">
+      <ion-icon name="md-arrow-up"></ion-icon>
+    </button>
+  </ion-fab>
+
+</ion-content>

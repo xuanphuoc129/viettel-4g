@@ -1,0 +1,113 @@
+<!--
+  Generated template for the ViettelPackageDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <div class="xs-hidden primary-bg">
+    <viettel-header></viettel-header>
+  </div>
+
+  <ion-toolbar class="sm-hidden md-hidden lg-hidden xl-hidden">
+    <ion-buttons left>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="{{menuIcon}}"></ion-icon>
+      </button>
+    </ion-buttons>
+    <div class="img-top-header" text-center>
+      <img src="./assets/imgs/logo-viettel-telecom.png" alt="">
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <div class="img-header">
+    <img src="./assets/imgs/viettel-4g-desktop.jpg" alt="Viettel 4G">
+  </div>
+
+  <div padding class="a3-container a3-items-center path">
+    <a href="">
+      <span padding-right tappable>Home</span>
+    </a>
+    <span>/</span>
+    <a href="#/goi-cuoc/{{mName}}">
+      <span padding-left padding-right tappable>{{mPackage.name}}</span>
+    </a>
+
+    <span>/</span>
+    <span padding-left>{{mViettelPackage.name}}</span>
+
+  </div>
+
+  <ion-grid padding>
+    <ion-row>
+      <ion-col col-12 col-sm-6 col-md-4 padding-top>
+        <viettel-package [mMode]="1" [mViettelPackage]="mViettelPackage" [color]="'primary-color'"></viettel-package>
+      </ion-col>
+      <ion-col col-12 col-sm-6 col-md-8>
+        <div text-uppercase padding-top padding-left class="font-bold">giới thiệu</div>
+        <div padding-left padding-right class="vt-vt-des" style="white-space: pre-line;" [innerHtml]="mViettelPackage.description"></div>
+
+        <div padding>
+          <a style="color: red !important;font-size: 2rem; font-weight: bold; text-decoration: none;" href="https://cuahangviettel.vn/trasau/">
+            <ion-icon class="animated infinite flash" name="md-arrow-forward"></ion-icon>
+            <span margin-left>Click để đăng ký TRẢ SAU Online tại đây</span>
+          </a>
+        </div>
+
+        <div padding-left padding-bottom padding-right>
+          <div class="vt-4g-line a1-relative">
+            <div class="cirle a1-absolute"></div>
+          </div>
+        </div>
+
+        <div text-uppercase padding-left class="font-bold">cách đăng ký</div>
+
+        <div padding class="vt-vt-des">
+          <span>Quý khách có thể đăng ký gói cước bằng cách click chọn vào "Đăng ký ngay"</span>
+
+          <div class="vt-4g-line a1-relative" margin-top>
+            <div class="cirle a1-absolute"></div>
+          </div>
+        </div>
+
+
+        <div text-uppercase padding-left class="font-bold">huỷ dịch vụ</div>
+
+        <div padding class="vt-vt-des">
+          <span>Soạn tin HUY gửi 191, đợi tin nhắn tổng đài gửi về, soạn Y gửi 191 để xác nhận</span>
+        </div>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <div class="vt-sp-relative">
+    <div text-uppercase class="primary-color title-big">sản phẩm liên quan</div>
+    <ion-grid class="xs-hidden">
+      <ion-row margin-bottom align-items-center justify-content-center>
+        <ion-col col-12 col-sm-4 col-md-3 *ngFor="let item of items">
+          <viettel-package [mViettelPackage]="item" [color]="'primary-color'"></viettel-package>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid class="sm-hidden md-hidden xl-hidden lg-hidden">
+      <ion-row margin-bottom nowrap style="overflow-x: scroll" align-items-center>
+        <ion-col col-9 col-sm-4 col-md-3 *ngFor="let item of items">
+          <viettel-package [mViettelPackage]="item" [color]="'primary-color'"></viettel-package>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <viettel-footer></viettel-footer>
+
+  <ion-fab bottom right [hidden]="mScrollTop < 20">
+    <button ion-fab mini color="light" (click)="scrollTop()">
+      <ion-icon name="md-arrow-up"></ion-icon>
+    </button>
+  </ion-fab>
+
+</ion-content>

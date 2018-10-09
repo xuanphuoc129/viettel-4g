@@ -1,18 +1,26 @@
 page-home {
-    .block-goithang{
-        margin-bottom: 16px;
-        .vt-4g-goithang-name{   
-            font-size: 3rem;
-            font-weight: bold;
-        }
-        .vt-4g-goithang-title{
-            margin-top: 10px;
-            color: black;
-            font-weight: bold;
-        }
-        .row{
-            margin: 16px 0;
-            padding: 16px 0 0 0;
-        }
-    }   
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .padding-top {
+    padding-top: 32px !important;
+  }
+
+  .package-container {
+    margin: 32px 0 16px 0;
+  }
+
+
+  .btn-left {
+    left: 1vw;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  .btn-right {
+    right: 1vw;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
 }

@@ -1,1 +1,28 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu type="push" [content]="mycontent" (ionOpen)="onOpenMenu()" (ionClose)="onCloseMenu()">
+  <ion-header>
+    <div class="logo-viettel-menu" padding-top padding-bottom>
+      <img src="./assets/imgs/viettel_logo.png" alt="">
+    </div>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <div class="menu-item" *ngFor="let item of items;let i = index">
+        <a href="{{item.url}}" (click)="onClickItem(item,i)" style=" width: 100%;color: black !important;text-decoration: unset !important;">
+          <div padding>
+            {{item.name}}
+            <ion-icon *ngIf="i < items.length - 1" name="ios-arrow-down" id="icon{{i+1}}" float-right></ion-icon>
+          </div>
+        </a>
+
+        <div class="drop-down" id="dropdown{{i+1}}">
+          <a *ngFor="let drop of item.dropbox" menuClose href="{{drop.url}}">
+             <div padding>{{drop.name}}</div>
+          </a>
+        </div>
+
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mycontent [root]="rootPage"></ion-nav>

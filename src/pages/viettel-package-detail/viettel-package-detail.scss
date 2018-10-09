@@ -1,0 +1,48 @@
+page-viettel-package-detail {
+  .vt-vt-des {
+    line-height: 1.8em;
+    font-size: 1em;
+    padding: 16px 0;
+
+  }
+
+  .path {
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+
+  .vt-4g-line {
+    height: 1px;
+    background: #41bdaf;
+
+    .cirle {
+      left: 0;
+      height: 5px;
+      width: 5px;
+      top: -2px;
+      background: #41bdaf;
+      border-radius: 50%;
+    }
+  }
+
+  .vt-sp-relative {
+    padding: 32px 5vw 16px 5vw;
+    background-image: url("../assets/imgs/viettel-4g-bg-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .title-big {
+      font-size: 1.6em;
+      font-weight: bold;
+    }
+
+    .col {
+      margin-top: 16px;
+    }
+  }
+
+
+}

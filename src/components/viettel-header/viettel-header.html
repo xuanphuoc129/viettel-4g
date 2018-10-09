@@ -1,0 +1,28 @@
+<!-- Generated template for the ViettelHeaderComponent component -->
+<div>
+  <div class="a3-container-center menu-container">
+    <div class="logo-viettel" (click)="onClickImage()" tappable>
+      <img src="./assets/imgs/logo-viettel-telecom.png" alt="">
+    </div>
+    <div class="menu-item-desktop a1-relative" *ngFor="let item of items">
+      <a href="{{item.url}}" [hidden]="item.url == '#'" style=" color: white !important;text-decoration: unset !important;">
+        {{item.name}}
+      </a>
+      <span [hidden]="item.url != '#'">{{item.name}}</span>
+
+      <div class="animateBar"></div>
+      <div class="a1-absolute dropbox animated fadeInRight" *ngIf="item.dropbox.length > 0">
+        <div class="dropbox-item" *ngFor="let url of item.dropbox">
+          <a href="{{url.url}}" [hidden]="url.url == '#'" style="color: black;text-decoration: unset !important;">
+            {{url.name}}
+          </a>
+          <span [hidden]="url.url != '#'">{{url.name}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="circle white-bg a3-container-center primary-color">
+      <ion-icon name="call"></ion-icon>
+    </div>
+    <div class="font-bold hotline"><span>{{hotline}}</span></div>
+  </div>
+</div>

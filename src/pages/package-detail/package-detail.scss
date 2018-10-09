@@ -1,0 +1,21 @@
+page-package-detail {
+  .vt-month-p-header {
+    padding: 0;
+  }
+
+  .package-list-container {
+    margin: 16px 0;
+
+    .col {
+      margin-top: 5vh;
+    }
+  }
+
+  .path {
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+
+}

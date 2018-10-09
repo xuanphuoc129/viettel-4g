@@ -1,53 +1,54 @@
-<div class="block-goithang">
-  <img src="../assets/imgs/viettel-4g-desktop.jpg" alt="Viettel 4G Desktop">
-
-  <ion-row align-items-center>
-    <ion-col col-12 col-sm-6 offset-sm-3 text-center>
-      <div class="vt-4g-goithang-name primary-color" text-uppercase text-center>
-        {{mMonthPackage.name}}
-      </div>
-      <div class="vt-4g-goithang-title" text-center>
-        {{mMonthPackage.title}}
-      </div>
-    </ion-col>
-    <ion-col col-12 col-sm-3 text-center>
-      <button ion-button outline class="btn-info primary">Thông tin</button>
-    </ion-col>
-  </ion-row>
-
-  <div class="list-package-container">
-    <ion-row align-items-start>
-      <ion-col col-10 col-sm-3 *ngFor="let item of mMonthPackage.items">
-        <div class="box-container a1-relative white-bg  border-radius">
-          <div class="line-item">{{item.name}}</div>
-          <div class="line-item">
-            <span class="item-data">{{item.data}}</span> tốc độ cao
-          </div>
-          <div class="line-item">{{item.price}}</div>
-          <div class="line-item">{{item.time}}</div>
-          <button ion-button full class="btn-sign primary">Đăng ký ngay</button>
-          <button ion-button outline class="btn-info primary">
-            <span>Chi tiết</span>
-          </button>
-
-          <div class="hot a1-absolute" *ngIf="item.isHot">
-            <img src="./assets/imgs/viettel-4g-hot.jpg" alt="">
-          </div>
-
-        </div>
-      </ion-col>
-    </ion-row>
-
-    <div class="tab-container">
-      <div class="mtab" *ngFor="let item of "></div>
-    </div>
-
-    <div text-center margin>
-      <button ion-button outline class="btn-info primary">
-        <span>Xem tất cả</span>
-      </button>
-    </div>
-
+<ion-header>
+  <div class="xs-hidden primary-bg">
+    <viettel-header></viettel-header>
   </div>
 
-</div>
+  <ion-toolbar class="sm-hidden md-hidden lg-hidden xl-hidden">
+    <ion-buttons left>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="{{menuIcon}}"></ion-icon>
+      </button>
+    </ion-buttons>
+    <div class="img-top-header" text-center>
+      <img src="./assets/imgs/logo-viettel-telecom.png" alt="">
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="img-header">
+    <img src="./assets/imgs/viettel-4g-desktop.jpg" alt="Viettel 4G">
+  </div>
+
+  <!-- ============= -->
+  <month-package [mMonthPackage]="mMonthPackage" (onScrollLeft)="doScrollLeft($event)" (onClickAll)="goToDetail($event)"
+    (onClickInfo)="goToInfo($event)"></month-package>
+  <!-- <call-data-package [mSixtyGBPackages]="mSixtyGBPackages" (onScrollLeft)="doScrollLeft($event)" (onClickAll)="goToDetail($event)"
+    (onClickInfo)="goToInfo($event)"></call-data-package>
+  <viettel-d-package [mDcomDataPackages]="mDcomDataPackages" (onScrollLeft)="doScrollLeft($event)" (onClickAll)="goToDetail($event)"
+    (onClickInfo)="goToInfo($event)"></viettel-d-package> -->
+  <!-- <month-package [mMonthPackage]="mMonthPackage" (onScrollLeft)="doScrollLeft($event)" (onClickAll)="goToDetail($event)"
+    (onClickInfo)="goToInfo($event)"></month-package> -->
+  <!-- ============= -->
+  <eco-package [mEcoDataPackage]="mEcoDataPackage" [mMorePackages]="mMorePackages" (onClickAll)="goToDetail($event)"
+    (onClickInfo)="goToInfo($event)" (onScroll)="doScrollLeft($event)"></eco-package>
+  <!-- ============= -->
+  <tomato-package [mTomatoPackages]="mTomatoPackages" [mSixtyGBPackages]="mSixtyGBPackages" (onClickAll)="goToDetail($event)"
+    (onClickInfo)="goToInfo($event)" (onScrollLeft)="doScrollLeft($event)"></tomato-package>
+  <!-- ============ -->
+  <day-package [mDayPackages]="mDayPackages" (onScroll)="doScrollLeft($event)" (onClickAll)="goToDetail($event)"
+    (onClickInfo)="goToInfo($event)"></day-package>
+  <!-- ================ -->
+  <dcom-package [mMoreDataDcomPackages]="mMoreDataDcomPackages" [mDcomDataPackages]="mDcomDataPackages" (onClickAll)="goToDetail($event)"
+    (onClickInfo)="goToInfo($event)" (onScroll)="doScrollLeft($event)"></dcom-package>
+  <!-- ================ -->
+
+  <viettel-footer></viettel-footer>
+
+  <ion-fab bottom right [hidden]="mScrollTop < 20">
+    <button ion-fab mini color="light" (click)="scrollTop()">
+      <ion-icon name="md-arrow-up"></ion-icon>
+    </button>
+  </ion-fab>
+
+</ion-content>

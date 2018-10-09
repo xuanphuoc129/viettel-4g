@@ -1,0 +1,125 @@
+<!-- Generated template for the DcomPackageComponent component -->
+<div>
+  <div class="dcom-package a1-relative">
+    <!-- <ion-grid no-padding>
+          <ion-row align-items-center class="vt-month-p-header">
+            <ion-col col-12 col-sm-8 offset-sm-2 offset-md-2 col-md-8 text-center>
+              <div class="vt-4g-package-name primary-color">
+                <span>{{mDcomDataPackages.name}}</span>
+              </div>
+              <div class="vt-4g-package-title">
+                <span>{{mDcomDataPackages.title}}</span>
+              </div>
+            </ion-col>
+    
+            <ion-col col-12 col-sm-2 col-md-2 text-center class="xs-margin-top">
+              <button ion-button outline class="btn-info primary" (click)="onClickInfo()">Thông tin</button>
+            </ion-col>
+          </ion-row>
+    
+          <ion-row justify-content-center id="monthPackageID" (swipe)="onSwipe($event)" >
+            <ion-col  col-12 col-sm-4 col-md-3 *ngFor="let item of mDcomDataPackages.items">
+              <viettel-package [mViettelPackage]="item" [color]="'primary-color'"></viettel-package>
+            </ion-col>
+          </ion-row>
+    
+          <div class="tab-container sm-hidden md-hidden lg-hidden xl-hidden xs-show-flex">
+            <div class="tab-item" *ngFor="let tab of mDcomDataPackagesTabs" tappable (click)="onClickMonthTab(tab)">
+              <div class="mtab" [class.selected]="tab == mMonthTabIDSelected"></div>
+            </div>
+          </div>
+    
+          <div text-center margin-top margin-bottom>
+            <button ion-button outline class="btn-info primary" (click)="onClickAll()">Xem tất cả</button>
+          </div>
+    
+        </ion-grid> -->
+
+    <ion-grid no-padding>
+      <ion-row align-items-start class="a1-relative" nowrap id="dcomPackageID" (swipe)="onSwipe($event)">
+        <ion-col col-12 col-md-6 col-xl-5 offset-xl-1 class="a1-relative padding-top">
+          <ion-row align-items-start>
+            <ion-col col-md-3 class="xs-hidden" text-right>
+              <button ion-button outline class="btn-info blue" (click)="onClickInfo(1)">Thông tin</button>
+            </ion-col>
+            <ion-col col-12 col-md-9>
+              <div text-center style="padding-top: 4px">
+                <div class="a1-relative">
+                  <div class="vt-4g-package-name blue-color">
+                    <span>{{mDcomDataPackages.name}}</span>
+                  </div>
+
+
+                </div>
+
+                <div class="vt-4g-package-title  a1-relative">
+                  <span>{{mDcomDataPackages.title}}</span>
+                </div>
+
+                <div class="xs-show-block sm-hidden md-hidden lg-hidden xl-hidden xs-margin-top">
+                  <button ion-button outline class="btn-info blue " (click)="onClickInfo(1)">Thông tin</button>
+                </div>
+
+                <div class="package-container">
+                  <viettel-package [mViettelPackage]="mDcomDataPackages.items[0]" [color]="'blue-color'"></viettel-package>
+                </div>
+
+                <div text-center margin-top margin-bottom>
+                  <button ion-button outline class="btn-info blue" (click)="onClickAll(1)">Xem tất cả</button>
+                </div>
+              </div>
+            </ion-col>
+          </ion-row>
+
+        </ion-col>
+        <div class="a1-absolute line-middle xs-hidden"></div>
+        <ion-col col-12 col-md-6 col-xl-5 class="a1-relative padding-top">
+
+          <ion-row align-items-start>
+            <ion-col col-12 col-md-9>
+              <div text-center style="padding-top: 4px">
+                <div class="a1-relative">
+                  <div class="vt-4g-package-name blue-color">
+                    <span>{{mMoreDataDcomPackages.name}}</span>
+                  </div>
+
+
+                </div>
+
+                <div class="vt-4g-package-title  a1-relative">
+                  <span>{{mMoreDataDcomPackages.title}}</span>
+                </div>
+
+                <div class="xs-show-block sm-hidden md-hidden lg-hidden xl-hidden xs-margin-top">
+                  <button ion-button outline class="btn-info blue " (click)="onClickInfo(2)">Thông tin</button>
+                </div>
+
+                <div class="package-container">
+                  <viettel-package [mViettelPackage]="mMoreDataDcomPackages.items[0]" [color]="'blue-color'"></viettel-package>
+                </div>
+
+                <div text-center margin-top margin-bottom>
+                  <button ion-button outline class="btn-info blue" (click)="onClickAll(2)">Xem tất cả</button>
+                </div>
+              </div>
+            </ion-col>
+
+            <ion-col col-md-3 class="xs-hidden">
+              <button ion-button outline class="btn-info blue" (click)="onClickInfo(2)">Thông tin</button>
+            </ion-col>
+
+          </ion-row>
+
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+
+    <div class="tab-container sm-hidden md-hidden lg-hidden xl-hidden xs-show-flex">
+      <div class="tab-item" *ngFor="let tab of mDcomPackageTabs" tappable (click)="onClickTab(tab)">
+        <div class="mtab" [class.selected]="tab == mDcomTabIDSelected"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
