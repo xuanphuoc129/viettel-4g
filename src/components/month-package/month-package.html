@@ -18,7 +18,7 @@
         </ion-col>
       </ion-row>
 
-      <ion-row nowrap justify-content-center id="monthPackageID" (swipe)="onSwipe($event)" >
+      <ion-row nowrap id="monthPackageID" (swipe)="onSwipe($event)" >
         <ion-col  col-12 col-sm-4 col-md-3 *ngFor="let item of mMonthPackage.items">
           <viettel-package [mViettelPackage]="item" [color]="'primary-color'"></viettel-package>
         </ion-col>

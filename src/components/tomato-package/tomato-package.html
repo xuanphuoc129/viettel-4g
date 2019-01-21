@@ -36,12 +36,12 @@
           </div>
         </ion-col>
 
-        <ion-col col-12 col-sm-8 col-md-6 class="a1-relative padding-top">
+        <ion-col col-12 col-sm-8 col-md-6 offset-sm-2 offset-md-1 class="a1-relative padding-top xs-hidden">
 
           <div text-center>
             <div class="a1-relative">
               <div class="vt-4g-package-name violet-color">
-                <span>{{mSixtyGBPackages.name}}</span>
+                <span>{{mTomatoPackages.name}}</span>
               </div>
 
               <div class="a1-absolute btn-left xs-hidden sm-hidden">
@@ -50,7 +50,7 @@
             </div>
 
             <div class="vt-4g-package-title a1-relative">
-              <span>{{mSixtyGBPackages.title}}</span>
+              <span>{{mTomatoPackages.title}}</span>
             </div>
 
             <div class="xs-show-block sm-hidden md-hidden lg-hidden xl-hidden xs-margin-top">
@@ -60,10 +60,10 @@
             <div class="package-container">
               <ion-row align-items-start nowrap id="sixtyPackageID" (swipe)="onSwipe($event)">
                 <ion-col col-12 col-sm-6 col-md-6>
-                  <viettel-package [mViettelPackage]="mSixtyGBPackages.items[0]" [nodata]="true" [color]="'violet-color'"></viettel-package>
+                  <viettel-package [mViettelPackage]="mTomatoPackages.items[0]" [nodata]="true" [color]="'violet-color'"></viettel-package>
                 </ion-col>
                 <ion-col col-12 col-sm-6 col-md-6>
-                  <viettel-package [mViettelPackage]="mSixtyGBPackages.items[1]" [nodata]="true" [color]="'violet-color'"></viettel-package>
+                  <viettel-package [mViettelPackage]="mTomatoPackages.items[1]" [nodata]="true" [color]="'violet-color'"></viettel-package>
                 </ion-col>
               </ion-row>
             </div>
@@ -84,7 +84,7 @@
           <img src="./assets/imgs/viettel-4g-person3.png" alt="Viettel-4G">
         </div>
         <!-- ========= -->
-        <ion-col col-12 col-sm-4 col-md-4 offset-md-2 class="a1-relative padding-top xs-hidden sm-show-block lg-show-block md-show-block lg-show-block">
+        <!-- <ion-col col-12 col-sm-4 col-md-4 offset-md-2 class="a1-relative padding-top xs-hidden sm-show-block lg-show-block md-show-block lg-show-block">
 
           <div class="a1-absolute xs-show-block sm-hidden md-hidden lg-hidden xl-hidden tomato-bg-mobile"></div>
 
@@ -115,7 +115,7 @@
               <button ion-button outline class="btn-info violet xs-white" (click)="onClickAll(1)">Xem tất cả</button>
             </div>
           </div>
-        </ion-col>
+        </ion-col> -->
 
       </ion-row>
     </ion-grid>

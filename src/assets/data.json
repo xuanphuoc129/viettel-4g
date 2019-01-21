@@ -1,4 +1,5 @@
 {
+  "trasau_url": "https://cuahangviettel.vn/trasau",
   "goithang": {
     "name": "GÓI THÁNG",
     "title": "TRỌN GÓI CHỈ TỪ 70.000Đ - SỬ DỤNG TRÊN MẠNG 3G/4G",
@@ -19,12 +20,12 @@
       "dropbox": [{
           "id": 1,
           "name": "Sim số",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/di-dong"
         },
         {
           "id": 2,
           "name": "Gói trả trước",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/di-dong/goi-tra-truoc"
         },
         {
           "id": 3,
@@ -34,12 +35,12 @@
         {
           "id": 4,
           "name": "Gói data",
-          "url": ""
+          "url": "https://cuahangviettel.vn/goidata/"
         },
         {
           "id": 5,
           "name": "Dịch vụ GTGT",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/di-dong/dich-vu-gtgt"
         }
       ]
     },
@@ -50,23 +51,22 @@
       "dropbox": [{
           "id": 1,
           "name": "Cáp quang FTTH",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/internet-truyen-hinh/internet-ftth"
         },
         {
           "id": 2,
-
           "name": "Truyền hình Viettel",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/internet-truyen-hinh/viettel-tv"
         },
         {
           "id": 3,
           "name": "Combo",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/internet-truyen-hinh/combo"
         },
         {
           "id": 4,
           "name": "Điện thoại cố định",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/internet-truyen-hinh/dien-thoai-co-dinh"
         }
       ]
     },
@@ -76,37 +76,37 @@
       "dropbox": [{
           "id": 1,
           "name": "ViettelPay - Thanh toán & Chuyển tiền",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/viettel-pay"
         },
         {
           "id": 2,
           "name": "BankPlus - Ngân hàng di động",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/bank-plus"
         },
         {
           "id": 3,
           "name": "VTPay - Thanh toán điện từ",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/bank-plus"
         },
         {
           "id": 4,
           "name": "Smart Moto - Giám sát và chống trộm xe máy",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/smart-moto"
         },
         {
           "id": 5,
           "name": "Viettel Study - Cổng giáo dục trực tuyến",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/viettel-study"
         },
         {
           "id": 6,
           "name": "Viettel CA - Chữ ký số",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/chu-ky-so"
         },
         {
           "id": 7,
           "name": "Chuyển tiền mặt",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/chuyen-tien-mat"
         }
       ]
     },
@@ -151,37 +151,32 @@
       "dropbox": [{
           "id": 1,
           "name": "Viettel Privilege",
-          "url": "#"
-        },
-        {
-          "id": 2,
-          "name": "Đăng ký thông tin trả trước",
-          "url": "#"
+          "url": "https://cuahangviettel.vn/tin-tuc/viettel-privilege.html"
         },
         {
           "id": 3,
           "name": "Tra cứu TBTT cần cập nhật lại thông tin",
-          "url": "#"
+          "url": "https://viettel.vn/check-info"
         },
         {
           "id": 4,
           "name": "Câu hỏi thường gặp",
-          "url": "#"
+          "url": "https://viettel.vn/ho-tro/cau-hoi-thuong-gap"
         },
         {
           "id": 5,
           "name": "Thông tin bảo hành",
-          "url": "#"
+          "url": "https://viettel.vn/ho-tro/sua-chua-va-bao-hanh"
         },
         {
           "id": 6,
           "name": "Thông tin hỗ trợ",
-          "url": "#"
+          "url": "https://viettel.vn/ho-tro/thong-tin-hotro/giai-dap-online"
         },
         {
           "id": 7,
           "name": "Lắng nghe để phát triển",
-          "url": "#"
+          "url": "https://viettel.vn/gop-y-viettel"
         }
       ]
     },
@@ -193,23 +188,78 @@
 
   ],
   "service": {
-    "services1": [
-      "Internet cáp quang",
-      "Truyền hình Viettel",
-      "Combo internet + truyền hình",
-      "Điện thoại cố định",
-      "Gói data di động",
-      "Gói cước trả sau",
-      "Sim số"
+    "services1": [{
+        "name": "Internet cáp quang",
+        "url": "https://cuahangviettel.vn/tin-tuc/internet-truyen-hinh/internet-ftth",
+        "noFollow": false
+      },
+      {
+        "name": "Truyền hình Viettel",
+        "url": "https://cuahangviettel.vn/tin-tuc/internet-truyen-hinh/viettel-tv",
+        "noFollow": false
+      },
+      {
+        "name": "Combo internet + truyền hình",
+        "url": "https://cuahangviettel.vn/tin-tuc/internet-truyen-hinh/combo",
+        "noFollow": false
+      },
+      {
+        "name": "Điện thoại cố định",
+        "url": "https://cuahangviettel.vn/tin-tuc/internet-truyen-hinh/dien-thoai-co-dinh",
+        "noFollow": false
+      },
+      {
+        "name": "Gói data di động",
+        "url": "https://cuahangviettel.vn/tin-tuc/di-dong/goi-data",
+        "noFollow": false
+      },
+      {
+        "name": "Gói cước trả sau",
+        "url": "https://cuahangviettel.vn/tin-tuc/di-dong/goi-tra-sau",
+        "noFollow": false
+      },
+      {
+        "name": "Sim số",
+        "url": "https://cuahangviettel.vn/tin-tuc/di-dong/goi-tra-truoc",
+        "noFollow": false
+      }
     ],
-    "services2": [
-      "Giám sát và chống trộm xe máy - Smart Motor",
-      "Cổng giáo dục trực tuyến - Viettel Study",
-      "Dịch vụ Bảo hiểm Bảo Tâm An",
-      "Ngân hàng di động - BankPlus",
-      "Thanh toán điện từ - VTPay",
-      "Chữ ký số - Viettel CA",
-      "Chuyển tiền mặt"
+    "services2": [{
+        "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/smart-moto",
+        "name": "Giám sát và chống trộm xe máy - Smart Motor",
+        "noFollow": false
+      },
+
+      {
+        "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/viettel-study",
+        "name": "Cổng giáo dục trực tuyến - Viettel Study",
+        "noFollow": false
+      },
+      {
+        "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/viettel-pay",
+        "name": "Thanh toán điện từ - VTPay",
+        "noFollow": false
+      },
+      {
+        "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/bao-hiem-an-tam",
+        "name": "Dịch vụ Bảo hiểm Bảo Tâm An",
+        "noFollow": false
+      },
+      {
+        "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/bank-plus",
+        "name": "Ngân hàng di động - BankPlus",
+        "noFollow": false
+      },
+      {
+        "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/chu-ky-so",
+        "name": "Chữ ký số - Viettel CA",
+        "noFollow": false
+      },
+      {
+        "url": "https://cuahangviettel.vn/tin-tuc/ung-dung-so/chuyen-tien-mat",
+        "name": "Chuyển tiền mặt",
+        "noFollow": false
+      }
     ]
   },
   "helps": [{
@@ -245,11 +295,36 @@
     }
   ],
   "cuahangviettel": [
-    "Giới thiệu",
-    "Thông tin cá nhân",
-    "Quản lý tài khoản",
-    "Quản lý cước",
-    "Quản lý giao dịch",
-    "Chính sách bảo mật"
+    {
+      "url": "",
+      "name":   "Giới thiệu",
+      "noFollow": true
+    },
+   
+    {
+      "url": "https://viettel.vn/my-viettel/thong-tin-nguoi-dung",
+      "name":  "Thông tin cá nhân",
+      "noFollow": true
+    },
+    {
+      "url": "https://viettel.vn/my-viettel/quan-ly-tai-khoan",
+      "name":  "Quản lý tài khoản",
+      "noFollow": true
+    },
+    {
+      "url": "https://viettel.vn/my-viettel/quan-ly-bill",
+      "name":   "Quản lý cước",
+      "noFollow": true
+    },
+    {
+      "url": "https://viettel.vn/my-viettel/quan-ly-giao-dich",
+      "name":  "Quản lý giao dịch",
+      "noFollow": true
+    },
+    {
+      "url": "",
+      "name": "Chính sách bảo mật",
+      "noFollow": true
+    }
   ]
 }

@@ -30,6 +30,7 @@ export class ViettelPackageDetailPage {
   items: Array<Package> = [];
   mName: string = "";
   menuIcon: string = "menu";
+  url: string = "";
 
   constructor(
     public mEvent: Events,
@@ -38,7 +39,10 @@ export class ViettelPackageDetailPage {
     public navCtrl: NavController, public navParams: NavParams) {
     this.mViettelPackage = new Package();
     this.mPackage = new Packages();
-
+    this.mAppModule.onLoadConfig().then(()=>{
+      this.url = this.mAppModule.getAppConfig().get("trasau_url");
+    })
+    
     if (this.navParams.data["name"]) {
       this.mViettelPackage.name = this.navParams.get("name");
       console.log(this.mViettelPackage.id);

@@ -4,7 +4,7 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
+<!-- <ion-header>
     <div class="xs-hidden primary-bg">
         <viettel-header></viettel-header>
     </div>
@@ -19,7 +19,7 @@
       <img src="./assets/imgs/logo-viettel-telecom.png" alt="">
     </div>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
 
 <ion-content>
@@ -54,7 +54,7 @@
     </ion-row>
 
     <ion-row class="package-list-container" justify-content-center>
-      <ion-col col-12 col-sm-4 col-md-3 *ngFor="let item of mPackage.items">
+      <ion-col col-6 col-sm-4 col-md-3 *ngFor="let item of mPackage.items">
         <viettel-package [mViettelPackage]="item" [color]="'primary-color'"></viettel-package>
       </ion-col>
     </ion-row>

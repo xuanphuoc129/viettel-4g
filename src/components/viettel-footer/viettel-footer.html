@@ -1,6 +1,6 @@
 <!-- Generated template for the ViettelFooterComponent component -->
 <div>
-  <div style="height: 10px; background: white;"></div>
+  <!-- <div style="height: 10px; background: white;"></div>
   <div class="white-smoke">
     <ion-grid>
       <ion-row align-items-start>
@@ -39,10 +39,10 @@
         </ion-col>
       </ion-row>
     </ion-grid>
-  </div>
+  </div> -->
 
 
-  <div class="white-bg">
+  <!-- <div class="white-bg">
     <ion-grid>
       <ion-row align-items-start class="a1-relative">
 
@@ -84,16 +84,16 @@
         </ion-col>
       </ion-row>
     </ion-grid>
-  </div>
+  </div> -->
 
-  <ion-row style="background: whitesmoke">
+  <!-- <ion-row style="background: whitesmoke">
     <ion-col col-12 col-md-3 col-sm3 offset-sm-9 offset-md-9>
       <div style="padding: 0 16px">
         <ion-icon style="font-size: 1.4em" name="call"></ion-icon>
         <span style="font-size: 1.2em; font-weight: bold; margin-left: 8px">Hotline: 1800 8168</span>
       </div>
     </ion-col>
-  </ion-row>
+  </ion-row> -->
 
 
   <div class="black-bg">
@@ -158,7 +158,7 @@
       </ion-col>
     </ion-row>
 
-    <ion-row align-items-start padding-top  style="border-bottom: 1px solid white;padding-bottom: 30px;">
+    <!-- <ion-row align-items-start padding-top style="border-bottom: 1px solid white;padding-bottom: 30px;">
       <ion-col col-12 col-sm-6 col-md-6>
         <div class="text-big white-color">
           Dịch vụ
@@ -166,12 +166,22 @@
         <ion-row align-items-start>
           <ion-col col-6 no-padding>
             <div class="item-service" *ngFor="let item of services1">
-              {{item}}
+              <a href="{{item.url || '#'}}" *ngIf="!item.noFollow">
+                {{item.name}}
+              </a>
+              <a href="{{item.url || '#'}}" *ngIf="item.noFollow" target="_blank" rel="nofollow">
+                {{item.name}}
+              </a>
             </div>
           </ion-col>
           <ion-col col-6 no-padding>
             <div class="item-service" *ngFor="let item of services2">
-              {{item}}
+              <a href="{{item.url || '#'}}" *ngIf="!item.noFollow">
+                {{item.name}}
+              </a>
+              <a href="{{item.url || '#'}}" *ngIf="item.noFollow" target="_blank" rel="nofollow">
+                {{item.name}}
+              </a>
             </div>
           </ion-col>
         </ion-row>
@@ -182,10 +192,10 @@
         </div>
         <div class="item-service" *ngFor="let item of helps">
           <a href="{{item.url || '#'}}" *ngIf="!item.noFollow">
-              {{item.name}}
+            {{item.name}}
           </a>
           <a href="{{item.url || '#'}}" *ngIf="item.noFollow" target="_blank" rel="nofollow">
-              {{item.name}}
+            {{item.name}}
           </a>
 
         </div>
@@ -195,28 +205,34 @@
           Cửa hàng Viettel
         </div>
         <div class="item-service" *ngFor="let item of cuahangviettel">
-          {{item}}
+          <a href="{{item.url || '#'}}" *ngIf="!item.noFollow">
+            {{item.name}}
+          </a>
+          <a href="{{item.url || '#'}}" *ngIf="item.noFollow" target="_blank" rel="nofollow">
+            {{item.name}}
+          </a>
         </div>
       </ion-col>
-    </ion-row>
+    </ion-row> -->
 
     <div class="white-color" margin-top>
       <ion-row align-items-center>
         <ion-col col-12 col-sm-10 col-md-10 col-xl-10>
-            © Viettel Telecom 2015. All rights reserved.<br>
-      Cơ quan chủ quản: Tập đoàn Công nghiệp - Viễn thông Quân đội. Giấy phép số: 144/GP - BC do Bộ thông tin - Truyền
-      thông cấp ngày 18/04/2007
+          © Viettel Telecom 2015. All rights reserved.<br>
+          Cơ quan chủ quản: Tập đoàn Công nghiệp - Viễn thông Quân đội. Giấy phép số: 144/GP - BC do Bộ thông tin -
+          Truyền
+          thông cấp ngày 18/04/2007
         </ion-col>
-        <ion-col col-12 col-sm-2 col-md-2 col-xl-2>
-            <a class="dmca-badge" title="DMCA.com Protection Status" href="//www.dmca.com/Protection/Status.aspx?ID=f2a9ffdb-8af6-407a-be71-8dc329949437">
-              <img class="aligncenter" src="https://images.dmca.com/Badges/dmca-badge-w200-5x1-07.png?ID=f2a9ffdb-8af6-407a-be71-8dc329949437"
-                alt="DMCA.com Protection Status" /></a>
-        </ion-col>
+        <!-- <ion-col col-12 col-sm-2 col-md-2 col-xl-2>
+          <a class="dmca-badge" title="DMCA.com Protection Status" href="//www.dmca.com/Protection/Status.aspx?ID=f2a9ffdb-8af6-407a-be71-8dc329949437">
+            <img class="aligncenter" src="https://images.dmca.com/Badges/dmca-badge-w200-5x1-07.png?ID=f2a9ffdb-8af6-407a-be71-8dc329949437"
+              alt="DMCA.com Protection Status" /></a>
+        </ion-col> -->
       </ion-row>
-    
+
     </div>
 
-  
+
   </div>
 
 

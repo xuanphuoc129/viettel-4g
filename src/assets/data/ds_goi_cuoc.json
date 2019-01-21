@@ -74,17 +74,6 @@
         },
         {
             "p_id": "1",
-            "id": "3",
-            "name": "V90",
-            "price": "90,000",
-            "description": "V90: 90.000đ được MIỄN PHÍ tất cả các cuộc gọi nội mạng Viettel dưới 20 phút, miễn phí 50 phút gọi ngoại mạng, 02GB Data(3G, 4G)/ngày. Hết 2GB tính theo lưu lượng gói data chính. Nếu không có gói data sẽ ngừng truy cập.\n\nGói cước được gia hạn tự động sau khi hết chu kỳ 30 ngày, có thông báo cho khách hàng trước và sau khi gia hạn. Không được bảo lưu lưu lượng khi gia hạn thành công.",
-            "data": "2GB/ngày",
-            "isHot": false,
-            "time": "30 ngày",
-            "url": "https://shop.viettel.vn/frame/dang-ky-goi-cuoc?code=v90&ch=230583"
-        },
-        {
-            "p_id": "1",
             "id": "4",
             "name": "Mimax125",
             "price": "125,000",

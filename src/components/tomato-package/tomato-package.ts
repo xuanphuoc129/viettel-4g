@@ -40,7 +40,7 @@ export class TomatoPackageComponent {
 
   onLoadMonthPackageTabs() {
     this.mSixtyPackageTabs = [];
-    this.mSixtyGBPackages.items.forEach((element,index) => {
+    this.mTomatoPackages.items.forEach((element,index) => {
       if(index < 2)this.mSixtyPackageTabs.push(element.id);
     });
     this.mSixtyTabIDSelected = this.mSixtyPackageTabs[0];
@@ -90,17 +90,14 @@ export class TomatoPackageComponent {
 
   onClickInfo(e) {
     let data = this.mTomatoPackages;
-    if(e == 2){
-      data = this.mSixtyGBPackages;
-    }
+    // if(e == 2){
+    //   data = this.mSixtyGBPackages;
+    // }
     this.mClickInfo.emit(data);
   }
 
   onClickAll(e) {
     let data = this.mTomatoPackages;
-    if(e == 2){
-      data = this.mSixtyGBPackages;
-    }
     this.mClickAll.emit(data);
   }
 }
