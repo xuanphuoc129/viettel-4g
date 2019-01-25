@@ -42,13 +42,25 @@
   <dcom-package [mMoreDataDcomPackages]="mMoreDataDcomPackages" [mDcomDataPackages]="mDcomDataPackages" (onClickAll)="goToDetail($event)"
     (onClickInfo)="goToInfo($event)" (onScroll)="doScrollLeft($event)"></dcom-package>
   <!-- ================ -->
-
+  <question-and-answer></question-and-answer>
+  
   <viettel-footer></viettel-footer>
 
-  <ion-fab bottom right [hidden]="mScrollTop < 20">
+  <ion-fab bottom right class="scroll-top-btn" [hidden]="mScrollTop < 20">
     <button ion-fab mini color="light" (click)="scrollTop()">
       <ion-icon name="md-arrow-up"></ion-icon>
     </button>
   </ion-fab>
+
+  <ion-fab top left>
+    <fake-customer></fake-customer>
+  </ion-fab>
+
+  <ion-fab bottom right class="btn-menu">
+    <button ion-fab (click)="onClickAddFab()">
+      <ion-icon name="add" class="animated pulse"></ion-icon>
+    </button>
+  </ion-fab>
+
 
 </ion-content>

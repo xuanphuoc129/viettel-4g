@@ -4,6 +4,7 @@ import 'rxjs/add/operator/map';
 import { AppConfig } from './app-config';
 import { ModalController } from 'ionic-angular';
 import { PackageController } from '../class/month-package';
+import { DistrictManager } from './District';
 /*
   Generated class for the AppModuleProvider provider.
 
@@ -15,14 +16,44 @@ export class AppModuleProvider {
   mDebug: boolean = true;
   private mAppConfig: AppConfig;
   private mPackageController: PackageController;
+  private mDistrictManager: DistrictManager = null;
+
   constructor(
     public mModalController: ModalController,
     public mHttp: HttpClient) {
     this.mAppConfig = new AppConfig();
     this.mPackageController = new PackageController();
+    this.mDistrictManager = new DistrictManager();
+  }
+
+  public getDistrictManager(): DistrictManager {
+    return this.mDistrictManager;
   }
 
 
+  public onLoadDistrict() {
+    this.onReadFileJson("./assets/data/tinh_tp.json").then((data) => {
+      if (data) {
+        this.getDistrictManager().onResponseCity(data["tinh_tp"]);
+        console.log(data);
+
+      }
+    })
+    this.onReadFileJson("./assets/data/quan_huyen.json").then((data) => {
+      if (data) {
+        this.getDistrictManager().onResponseDistrict(data["quan_huyen"]);
+      }
+    })
+    this.onReadFileJson("./assets/data/xa_phuong.json").then((data) => {
+      if (data) {
+        this.getDistrictManager().onResponseCommunes(data["xa_phuong"]);
+      }
+    })
+  }
+
+  public onLoadNameCustomerFile() {
+    return this.onReadFileJson("./assets/data/name_customer.json");
+  }
 
   public getPackageController(): PackageController{
     return this.mPackageController;

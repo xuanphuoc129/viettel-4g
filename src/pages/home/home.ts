@@ -85,6 +85,10 @@ export class HomePage {
     this.myContent.scrollToTop(200);
   }
 
+  onClickAddFab() {
+    this.mAppModule.showModal("MenuShowModalPage", null);
+  }
+
   ionViewDidLoad() {
     this.myContent.ionScroll.asObservable().subscribe(() => {
       this.mScrollTop = this.myContent.scrollTop;

@@ -11,9 +11,12 @@ import { ViettelHeaderComponent } from './viettel-header/viettel-header';
 import { ViettelFooterComponent } from './viettel-footer/viettel-footer';
 import { CallDataPackageComponent } from './call-data-package/call-data-package';
 import { ViettelDPackageComponent } from './viettel-d-package/viettel-d-package';
+import { FakeCustomerComponent } from './fake-customer/fake-customer';
+import { QuestionAndAnswerComponent } from './question-and-answer/question-and-answer';
 @NgModule({
 	declarations: [ViettelPackageComponent,
     MonthPackageComponent,
+    FakeCustomerComponent,
     EcoPackageComponent,
     DcomPackageComponent,
     TomatoPackageComponent,
@@ -21,6 +24,7 @@ import { ViettelDPackageComponent } from './viettel-d-package/viettel-d-package'
     ViettelHeaderComponent,
     ViettelFooterComponent,
     CallDataPackageComponent,
+    QuestionAndAnswerComponent,
     ViettelDPackageComponent],
 	imports: [
 		IonicModule,
@@ -28,9 +32,11 @@ import { ViettelDPackageComponent } from './viettel-d-package/viettel-d-package'
 	],
 	exports: [ViettelPackageComponent,
     MonthPackageComponent,
+    FakeCustomerComponent,
     EcoPackageComponent,
     DcomPackageComponent,
     TomatoPackageComponent,
+    QuestionAndAnswerComponent,
     DayPackageComponent,
     ViettelHeaderComponent,
     ViettelFooterComponent,

@@ -90,10 +90,10 @@
 
   }
 }
-
-ion-fab[bottom]{
-  bottom: 100px;
+.scroll-top-btn{
+  bottom: 100px !important;
 }
+
 ion-fab[right]{
   right: calc(26px + env(safe-area-inset-right));
 }

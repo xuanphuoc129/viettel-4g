@@ -1,0 +1,114 @@
+{
+    "Sheet1": [
+        {
+            "id": "1",
+            "question": "Tốc độ 3G của Viettel có phụ thuộc vào dòng máy điện thoại hay không? Tại sao xảy ra trường hợp xem video online trên máy này thì được còn máy khác lại không?",
+            "answer": "Tốc độ 3G phụ thuộc rất nhiều vào máy điện thoại. Ngoài ra, tốc độ còn phụ thuộc vào các ứng dụng chạy video trên điện thoại đó. Ví dụ, chúng ta thường nói đến độ download tối đa của 3G là  42 Mb/s nhưng trên thị trường máy điện thoại Việt Nam chỉ có khoảng 10% số máy hỗ trợ tốc độ này.\r\nViệc khách hàng sử dụng trên máy này xem được video mà máy khác không xem được phụ thuộc nhiều vào các ứng dụng xem video trên máy hơn là tốc độ."
+        },
+        {
+            "id": "2",
+            "question": "Mỗi khi dùng 3G tôi thấy tiền trong tài khoản bị trừ rất nhanh nên cũng hạn chế sử dụng, Viettel có thể tư vấn làm thế nào để dùng 3G tiết kiệm nhất?",
+            "answer": "Việc đọc báo, xem bản tin tốn rất ít lưu lượng. Lưu lượng sử dụng nhiều thường phát sinh khi khách hàng xem video online. Để tiết kiệm lưu lượng, khách hàng cần cân nhắc trước khi xem video và nên chọn gói cước 3G phù hợp với từng mục đích sử dụng như gói Youtube dành riêng cho khách hàng có nhu cầu xem video từ Youtube nhiều, gói Facebook dành cho những người chỉ lướt Facebook…"
+        },
+        {
+            "id": "3",
+            "question": "Tôi có người bạn đi công tác nước ngoài, khi về nước bị tính phí roaming rất nhiều vì dùng 3G, mặc dù anh ấy cho biết chỉ sử dụng 3G để check email vài lần và thỉnh thoảng lướt Facebook? Vậy khi đi Roaming nên dùng 3G ở nước ngoài như thế nào cho tiết kiệm?",
+            "answer": "Giá cước 3G khi Roaming ra nước ngoài được quy định bởi mạng nước ngoài và khá cao so với mức giá tại Việt Nam (khoảng 10 USD/MB). Khi khách hàng ở nước ngoài và bắt đầu sử dụng dịch vụ chuyển vùng quốc tế, Viettel bao giờ cũng có tin nhắn gửi tới khách hàng, thông báo về giá cước chuyển vùng, bao gồm cả giá cước Data."
+        },
+        {
+            "id": "4",
+            "question": "3G sử dụng trong khung giờ, lãnh thổ và dùng trong việc nào là tốt nhất (xem phim, đọc báo, tìm kiếm thông tin…)?",
+            "answer": "Khách hàng sử dụng dịch vụ 3G tốt nhất nên tránh các khung giờ cao điểm, bởi khi vào giờ cao điểm nếu có nhiều người dùng đồng thời sẽ ảnh hưởng tới tốc độ sử dụng dịch vụ.\r\nVới mạng 3G của Viettel, không có sự khác biệt rõ rệt giữa thành thị và nông thôn do định hướng của Viettel đầu tư vào mạng 3G đồng đều trên toàn quốc. Nông thôn cũng phải có chất lượng dịch vụ 3G tốt như thành thị.\r\nViệc sử dụng 3G cho mục đích gì phụ thuộc rất nhiều vào nhu cầu cụ thể của khách hàng. Mạng di động 3G của Viettel có thể đáp ứng được các nhu cầu giải trí: xem video, nghe nhạc, chơi game và các nhu cầu công việc: lướt web, check mail, tìm kiếm tài liệu…"
+        },
+        {
+            "id": "5",
+            "question": "Tại sao khi ở vùng sóng 3G yếu, smartphone của tôi rất nhanh hết pin?",
+            "answer": "Sử dụng smartphone ở các vùng sóng 3G yếu thông thường máy sẽ tự động chuyển qua lại giữa chế độ song 2G, 3G (nếu khách hàng cài đặt chế độ Dual mode). Nếu khách hàng thường xuyên sử dụng tại những khu vực sóng 3G yếu sẽ dẫn đến tình trạng pin của máy nhanh hết. Hiện tại chất lượng sóng 3G đã được cải thiện nên hiện tượng này ít khi xảy ra. Đặc biệt, Viettel đã triển khai các kỹ thuật giúp tiết kiệm pin cho máy smartphone nên các máy sử dụng 3G của mạng Viettel có thể tiết kiệm đến 15% thời gian sử dụng của pin.\r\nNgoài ra, máy điện thoại hay bị hết pin có thể do một vài lý do: Khách hàng luôn bật wifi, hoặc sau khi đi ra khỏi vùng phục vụ của wifi thì quên tắt wifi, dẫn đến việc máy nhanh hết pin.\r\nBên cạnh đó các máy smartphone hiện nay hầu hết đều sử dụng màn hình cảm ứng, khi máy ở chế độ tắt màn hình, thông thường một số máy vẫn có thể truy cập vào camera được, dẫn đến tình trạng camera bị kích hoạt mà không biết việc này cũng làm cho máy hết pin rất nhanh."
+        },
+        {
+            "id": "6",
+            "question": "4G khác 3G ở chỗ nào? Giá của dịch vụ 4G ra sao?",
+            "answer": "Khác biệt lớn nhất của 4G là tốc độ truy cập internet cao hơn 3G gấp 10 lần. Và 4G bắt đầu hướng đến các dịch vụ phi người dùng. Ví dụ, người dùng có thể sử dụng máy tính bảng hoặc điện thoại thông minh để kết nối và điều khiển tất cả các thiết bị trong căn nhà của mình như: bóng đèn, lò sưởi… Điều này sẽ được thực hiện một cách hoàn hảo trên nền tảng tốc độ cao của 4G."
+        },
+        {
+            "id": "7",
+            "question": "Ai cần đổi SIM 4G?",
+            "answer": "Khách hàng đang dùng điện thoại Smartphone 4G, 3G thường xuyên dùng Internet trên điện thoại di động nâng cấp lên SIM 4G càng sớm càng tốt.\r\nKhách hàng dùng điện thoại 2G nên đổi SIM 4G để khi nâng cấp lên điện thoại 4G có thể sẵn sàng trải nghiệm mọi tiện ích của công nghệ mới."
+        },
+        {
+            "id": "8",
+            "question": "Vì sao nên đổi SIM 4G?",
+            "answer": "Vì sử dụng dịch vụ 4G cần đủ bộ \"Máy điện thoại 4G + SIM 4G + Viettel cung cấp dịch vụ 4G\"\r\nSIM 4G công nghệ mới, chất lượng tốt và bộ nhớ lớn hơn.\r\nĐổi SIM 4G giữ nguyên số và không ảnh hưởng tới các dịch vụ di động khách hàng đang sử dụng.\r\nĐổi SIM 4G vừa nâng cấp SIM, vừa đăng ký chính chủ số di động đang sử dụng.\r\nKhi Viettel khai trương 4G, anh/chị có thể sử dụng ngay dịch vụ 4G tốc độ cao mà không phải mất công đổi sim"
+        },
+        {
+            "id": "9",
+            "question": "Ai được miễn phí đổi SIM 4G?",
+            "answer": "Khách hàng đổi SIM 4G lần đầu (ngoại trừ thuê bao trả trước hoạt động dưới 60 ngày kể từ ngày kích hoạt)."
+        },
+        {
+            "id": "10",
+            "question": "Đổi SIM Viettel 4G ở đâu?",
+            "answer": "Viettel triển khai hơn 1.600 điểm đổi SIM trên toàn quốc – tại tất cả cửa hàng, siêu thị, cửa hàng ủy quyền và điểm bưu chính Vietttel\r\nKhi đổi SIM 4G, Bạn cần mang theo CMTND/Hộ chiếu."
+        },
+        {
+            "id": "11",
+            "question": "Tại sao tôi phải đổi SIM 4G khi chưa thể sử dụng được dịch vụ trên nền 4G?",
+            "answer": "Đổi SIM ngay từ bây giờ không ảnh hưởng gì đến các dịch vụ mà anh chị đang sử dụng.\r\nĐổi SIM sớm sẽ đưa bạn trở thành những khách hàng Viettel đầu tiên trải nghiệm những tính năng vượt trội của dịch vụ 4G."
+        },
+        {
+            "id": "12",
+            "question": "Nếu đổi sim 4G thì có ảnh hưởng gì đến quá trình sử dụng dịch vụ Viettel của tôi không?",
+            "answer": "Anh/chị có thể sử dụng dịch vụ bình thường\r\nKhi Viettel khai trương 4G, anh/chị có thể sử dụng ngay dịch vụ 4G tốc độ cao mà không phải mất công đổi sim.\r\nLưu ý: Hiện tại, Viettel chưa cung cấp sim 4G CA. Nếu anh/chị có sử dụng dịch vụ Mobile CA của Viettel, anh/chị vui lòng đổi sim sau ngày 10/2/2017 để không bị gián đoạn quá trình sử dụng dịch vụ chữ ký số."
+        },
+        {
+            "id": "13",
+            "question": "Nếu đổi SIM 4G thì có bị mất tiền trong tài khoản không?",
+            "answer": "Anh chị không bị mất tiền trong tài khoản.\r\nViettel bảo lưu tất cả các tài khoản và dịch vụ của khách hàng khi đổi SIM 4G"
+        },
+        {
+            "id": "14",
+            "question": "4G Viettel dự đoán có ưu điểm gì hơn mạng khác?",
+            "answer": "Viettel sẽ là một trong những nhà mạng có vùng phủ 4G rộng nhất, đáp ứng chất lượng dịch vụ tốt nhất."
+        },
+        {
+            "id": "15",
+            "question": "Hiện tại đã sử dụng được 4G của Viettel chưa?",
+            "answer": "Hiện tại, khách hàng của Viettel tại Vũng Tàu đã có thể sử dụng dịch vụ 4G."
+        },
+        {
+            "id": "16",
+            "question": "Điện thoại của tôi có sử dụng được 4G hay không?",
+            "answer": "Đối với các dòng máy cao cấp như Iphone 5 trở lên, hay các dòng Samsung Galaxy S, Samsung Galaxy Note… đều đã hỗ trợ 4G\r\nĐối với 1 số hệ điều hành phổ biến, cách thức nhận diện máy 4G như sau:\r\n- Đối với Android: Cài đặt -> Các mạng di động (Mạng di động) -> Chế độ mạng (có hiển thị 4G/LTE)\r\n- Đối với iOS: Cài đặt -> Di động -> Tùy chọn dữ liệu di động -> Thoại và dữ liệu (có hiển thị 4G/LTE).\r\n- Đối với BlackBerry OS: Cài đặt -> Mạng và kết nối -> Mạng di động -> Chế độ mạng (có hiển thị 4G/LTE).\r\n- Đối với Window phone: Cài đặt -> Mạng di động và SIM -> Cài đặt SIM -> Mạng di động (có hiển thị 4G/LTE)."
+        },
+        {
+            "id": "17",
+            "question": "Công nghệ Viettel sử dụng để triển khai mạng 4G là WiMax hay LTE? Băng tần Viettel đang dùng để thử nghiệm 4G là bao nhiêu? Ưu điểm?",
+            "answer": "Hiện tại Viettel sử dụng công nghệ LTE trên băng tần 1800\r\nƯu điểm: Tốc độ cao, giảm độ trễ, vùng phủ rộng, tương thích với nhiều thiết bị đầu cuối hỗ trợ 4G tần số này"
+        },
+        {
+            "id": "18",
+            "question": "Người dùng iPhone, iPad có sử dụng được 4G ở Việt Nam?",
+            "answer": "Có."
+        },
+        {
+            "id": "19",
+            "question": "Nếu khách hàng sử dụng các gói không giới hạn lưu lượng của dịch vụ 3G như MiMax, đã đổi SIM 4G, khi hết tốc độ cao thì tốc độ truy cập sẽ là bao nhiêu?",
+            "answer": "Khi hết lưu lượng tốc độ cao thì tốc độ truy cập sẽ theo chính sách gói cước của nhà mạng, ví dụ khách hàng đang dùng gói MiMax thì tốc độ là 128Kbps/128Kbps."
+        },
+        {
+            "id": "20",
+            "question": "Chất lượng 3G sẽ như thế nào khi Viettel triển khai mạng 4G?",
+            "answer": "Khi triển khai mạng 4G, khách hàng dùng 3G sẽ không bị ảnh hưởng"
+        },
+        {
+            "id": "21",
+            "question": "Giá cước dịch vụ 4G?",
+            "answer": "Hiện Viettel đang xây dựng chính sách giá cước 4G, và dự kiến giá thành rẻ hơn 3G."
+        },
+        {
+            "id": "22",
+            "question": "Tôi muốn được tư vấn trực tiếp về 4G Viettel, tôi liên hệ ai?",
+            "answer": "Tới cửa hàng Viettel trên toàn quốc.\r\nGọi tổng đài miền phí 18008098"
+        }
+    ]
+}
