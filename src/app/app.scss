@@ -90,11 +90,12 @@
 
   }
 }
-.scroll-top-btn{
-  bottom: 100px !important;
+
+.scroll-top-btn {
+  bottom: 160px !important;
 }
 
-ion-fab[right]{
+ion-fab[right] {
   right: calc(26px + env(safe-area-inset-right));
 }
 
@@ -163,6 +164,7 @@ ion-fab[right]{
   &.primary {
     background: #4f5b97;
   }
+
   // transform: scale(1.02);
 }
 
@@ -342,6 +344,15 @@ ion-header {
 
 .border-radius {
   border-radius: 40px;
+}
+
+.fab {
+  height: 48px;
+  width: 48px;
+  line-height: 48px;
+}
+ion-fab[right] {
+  right: calc(10px + env(safe-area-inset-right));
 }
 
 @media (max-width: 575px) {

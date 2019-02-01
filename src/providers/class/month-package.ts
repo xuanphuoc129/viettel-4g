@@ -193,8 +193,59 @@ export class PackageController {
 
     onResponseAppConfig(data) {
         if (data) {
-            let dsPackages = data["Trang tính1"];
-            let dsPackage = data["Trang tính2"];
+            // let dsPackages = data["Trang tính1"];
+            // let dsPackage = data["Trang tính2"];
+            let dsPackageConfig = [
+                {
+                    id: "1",
+                    name: "Gói Tháng",
+                    title: "Trọn gói chỉ từ 70.000đ - Sử dụng trên mạng 3G/4G",
+                    description: "Gói data tháng  dành cho khách hàng có nhu cầu sử dụng internet thường xuyên tren di động\nGói cước sử dụng chung các mạng 3G/4G. Gói data Mimax70 (70.000đ có 3Gb tốc độ cao sử dụng trong 30 ngày) phù hợp với nhu cầu đọc báo, nghe nhạc, nhắn tin, online, lướt facebook\nGói data Mimax90 (90.000đ có 5GB tốc độ cao sử dụng trong 30 ngày) phù hợp với nhu cầu đọc báo, nghe nhạc, check mail, nhắn tin, online, lướt facebook, video call thoải mái với bạn bè.\nNếu bạn thích xem video trên Youtube, facebook thì gói Mimax125 (125.000đ có 8Gb tốc độ cao sử dụng trong 30 ngày) sẽ đáp ứng nhu cầu của bạn.\nNếu bạn là tín đồ nghiền phim Online hoặc trò chơi trên điện thoại di động thì hãy sử dụng gói data Mimax200 (200.000đ có 15 Gb tốc độ cao) và Umax (300.000đ có 30Gb tốc độ cao) sinh ra dành cho bạn rồi."
+                },
+                {
+                    id: "2",
+                    name: "Eco Data",
+                    title: "Luôn tốc độ cao",
+                    description: "Gói cước Eco Data phù hợp với khách hàng luôn muốn trải nghiệm internet tốc độ cao. Sau khi sử dụng hết lưu lượng của gói cước, Quý khách đăng ký lại chính gói cước hoặc đăng ký các gói mua thêm để tiếp tục truy cập internet."
+                },
+                {
+                    id: "3",
+                    name: "Gói Mua Thêm",
+                    title: "Gói mua thêm lưu lượng",
+                    description: "Quý khách có thể mua thêm lưu lượng tốc độ cao để sử dụng sau khi gói data tháng hết lưu lượng."
+                },
+                {
+                    id: "4",
+                    name: "Tomato Data",
+                    title: "Không giới hạn thời gian sử dụng",
+                    description: "Gói cước Tomato Data phù hợp với khách hàng mới trải nghiệm data 3G/4G trong những tình huống cấp bách ( tìm đường, check mail, chat OTT, gọi xe...) Tomato data giúp bạn luôn an tâm vì luôn có sẵn data không giới hạn thời gian sử dụng."
+                },
+                {
+                    id: "5",
+                    name: "Gói Thoại + Data",
+                    title: "Lướt web, liên lạc tẹt ga không lo về giá",
+                    description: "Gói data tháng  dành cho khách hàng có nhu cầu sử dụng internet thường xuyên tren di động\nGói cước sử dụng chung các mạng 3G/4G"
+                },
+                {
+                    id: "6",
+                    name: "Data Theo Ngày",
+                    title: "Phù hợp với nhu cầu data không thường xuyên",
+                    description: "Gói cước data ngày phù hợp với nhu cầu sử dụng internet thường xuyên ( khi di chuyển/đi du lịch/công tác) hoặc nhu cầu sử dụng internet tăng đột xuất trong ngày (xem phim/chơi game/tải dữ liệu....)"
+                },
+                {
+                    id: "7",
+                    name: "Gói Data Only (Dcom)",
+                    title: "Chỉ dành cho sim DCOM",
+                    description: "Gói data Only phục vụ cho nhu cầu truy cập internet lớn trên các thiết bị di động/máy tính bảng và nhắn tin, không sử dụng để gọi."
+                },
+                {
+                    id: "8",
+                    name: "Mua Thêm Data Dcom",
+                    title: "Mua thêm khi hết lưu lượng data",
+                    description: "Gói data Only phục vụ cho nhu cầu truy cập internet lớn trên các thiết bị di động/máy tính bảng và nhắn tin, không sử dụng để gọi."
+                }
+            ];
+
             let dataConfig = [
                 {
                     p_id: "1",
@@ -484,7 +535,7 @@ export class PackageController {
                 }
             ]
             this.onParsePackage(dataConfig);
-            this.onParsePackages(dsPackages);
+            this.onParsePackages(dsPackageConfig);
         }
     }
 

@@ -25,7 +25,11 @@ page-home {
   }
 
   .btn-menu{
+    bottom: 100px !important;
     .fab-md{
+      background: map-get($map: $colors, $key: orange);
+    }
+    .fab-ios{
       background: map-get($map: $colors, $key: orange);
     }
   }

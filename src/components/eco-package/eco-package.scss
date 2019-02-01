@@ -1,8 +1,10 @@
 eco-package {
   .data-package {
     overflow: hidden;
-    background-color: #f9ec68;
-    background: -webkit-radial-gradient(center, ellipse cover, #fffcdd 0%, #fbf298 34%, #f9ec68 57%, #f9ec68 75%, #f9ec68 100%);
+    background-image: url("../assets/imgs/viettel-4g-bg-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .img-girl {
       max-width: 33.333%;

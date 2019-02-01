@@ -30,12 +30,12 @@
   <!-- <month-package [mMonthPackage]="mMonthPackage" (onScrollLeft)="doScrollLeft($event)" (onClickAll)="goToDetail($event)"
     (onClickInfo)="goToInfo($event)"></month-package> -->
   <!-- ============= -->
-  <eco-package [mEcoDataPackage]="mEcoDataPackage" [mMorePackages]="mMorePackages" (onClickAll)="goToDetail($event)"
-    (onClickInfo)="goToInfo($event)" (onScroll)="doScrollLeft($event)"></eco-package>
-  <!-- ============= -->
   <tomato-package [mTomatoPackages]="mTomatoPackages" [mSixtyGBPackages]="mSixtyGBPackages" (onClickAll)="goToDetail($event)"
     (onClickInfo)="goToInfo($event)" (onScrollLeft)="doScrollLeft($event)"></tomato-package>
   <!-- ============ -->
+  <eco-package [mEcoDataPackage]="mEcoDataPackage" [mMorePackages]="mMorePackages" (onClickAll)="goToDetail($event)"
+    (onClickInfo)="goToInfo($event)" (onScroll)="doScrollLeft($event)"></eco-package>
+  <!-- ============= -->
   <day-package [mDayPackages]="mDayPackages" (onScroll)="doScrollLeft($event)" (onClickAll)="goToDetail($event)"
     (onClickInfo)="goToInfo($event)"></day-package>
   <!-- ================ -->
@@ -47,7 +47,7 @@
   <viettel-footer></viettel-footer>
 
   <ion-fab bottom right class="scroll-top-btn" [hidden]="mScrollTop < 20">
-    <button ion-fab mini color="light" (click)="scrollTop()">
+    <button ion-fab color="light" (click)="scrollTop()">
       <ion-icon name="md-arrow-up"></ion-icon>
     </button>
   </ion-fab>
